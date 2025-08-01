@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.calculator {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgb(96, 128, 96);
+}
+.calculator:hover {
+  box-shadow: 0px 3px 45px #26b7ba;
+}
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: rgb(246, 241, 241);
+  border-top-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #000;
+}
+input:hover {
+  box-shadow: 0px 3px 15px rgb(252, 252, 253);
+}
+input::placeholder {
+  color: #000;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: rgb(185, 172, 183);
+  color: #ffffff;
+  font-size: 35px;
+
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0px 3px 45px #05ebef;
+}
+.equalBtn {
+  background-color: #fb14b2;
+}
+
+.operator {
+  font-size: 2rem;
+  color: #476162;
+  background-color: rgb(4, 223, 201);
+}
